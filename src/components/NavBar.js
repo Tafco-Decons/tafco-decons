@@ -1,6 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 const NavBar = () => {
+  const navLinks = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Projects", href: "/projects" },
+    { name: "Contact", href: "/contact" },
+  ];
   return (
     <div
       style={{
@@ -10,7 +18,13 @@ const NavBar = () => {
         width: "100%",
       }}
     >
-      Header
+      {navLinks.map((link) => {
+        return (
+          <Link href={link.href} key={link.name}>
+            {link.name}
+          </Link>
+        );
+      })}
     </div>
   );
 };
