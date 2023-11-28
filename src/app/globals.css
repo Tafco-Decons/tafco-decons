@@ -22,4 +22,5 @@
 }
  body {
   color: rgb(var(--foreground-rgb));
+  font-family: inherit;
 } 
