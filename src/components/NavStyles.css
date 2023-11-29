@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1em;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 .image {
   width: 14.625em;
+  cursor: pointer;
 }
 .navlinks {
   display: flex;
