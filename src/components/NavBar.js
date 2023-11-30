@@ -15,8 +15,8 @@ const NavBar = () => {
     { name: "Contact", href: "/contact" },
   ];
   return (
-    <div class="container">
-      <div class="image">
+    <div className="container">
+      <div className="image">
         <Image
           src="/assets/TealLogo.png"
           width={234}
@@ -25,14 +25,14 @@ const NavBar = () => {
         />
       </div>
 
-      <div class="navlinks">
+      <div className="navlinks">
         {navLinks.map((link) => {
           const isActive = pathname.startsWith(link.href);
           return (
             <Link
               href={link.href}
               key={link.name}
-              class={isActive ? "activeLink" : "link"}
+              className={isActive ? "activeLink" : "link"}
             >
               {link.name}
             </Link>
