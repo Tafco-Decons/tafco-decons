@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import "@/app/home/HomeStyles.css";
 import { Button } from "rsuite";
+import LetsChat from "@/components/LetsChat";
 
 const HomePage = () => {
   const [isTextVisible, setIsTextVisible] = useState(false);
@@ -17,17 +18,20 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div class="HImageContainer">
-      <div class={`title ${isTextVisible ? "show" : ""}`}>
-        <span style={{ marginBottom: "2em" }}>
-          TAFCO Designs and Constructions
-        </span>
-        <h6>OUR EXPERTISE FOR YOUR PROJECT</h6>
+    <>
+      <div className="HImageContainer">
+        <div className={`title ${isTextVisible ? "show" : ""}`}>
+          <span style={{ marginBottom: "2em" }}>
+            TAFCO Designs and Constructions
+          </span>
+          <h6>OUR EXPERTISE FOR YOUR PROJECT</h6>
+        </div>
+        <Button style={{ color: "white" }} appearance="ghost">
+          LEARN MORE{" "}
+        </Button>
       </div>
-      <Button style={{ color: "white" }} appearance="ghost">
-        LEARN MORE{" "}
-      </Button>
-    </div>
+      <LetsChat />
+    </>
   );
 };
 
