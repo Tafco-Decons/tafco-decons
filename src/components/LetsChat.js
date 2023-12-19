@@ -2,6 +2,8 @@
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import React, { useState } from "react";
 import { Button, Modal, Placeholder } from "rsuite";
+import "@/components/ChatButtonStyles.css";
+import Image from "next/image";
 
 const LetsChat = () => {
   const [open, setOpen] = useState(false);
@@ -11,9 +13,11 @@ const LetsChat = () => {
   return (
     <>
       <div style={{ position: "fixed", bottom: "20px", right: "20px" }}>
-        <Button appearance="default" onClick={handleOpen}>
-          Let's Chat
-        </Button>
+        <Button
+          appearance="default"
+          onClick={handleOpen}
+          className="button"
+        >Let's Chat</Button>
       </div>
       <Modal
         size={isMobile ? "full" : "xs"}
