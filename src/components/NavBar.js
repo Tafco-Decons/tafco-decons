@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 import "@/components/NavStyles.css";
 
 const NavBar = () => {
   const pathname = usePathname();
+  const router = useRouter();
   const navLinks = [
-    { name: "Home", href: "/home" },
+    { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Projects", href: "/projects" },
@@ -16,7 +17,12 @@ const NavBar = () => {
   ];
   return (
     <div className="container">
-      <div className="image">
+      <div
+        className="image"
+        onClick={() => {
+          router.push("/");
+        }}
+      >
         <Image
           src="/assets/TealLogo.png"
           width={234}
@@ -27,7 +33,7 @@ const NavBar = () => {
 
       <div className="navlinks">
         {navLinks.map((link) => {
-          const isActive = pathname.startsWith(link.href);
+          const isActive = pathname === link.href;
           return (
             <Link
               href={link.href}
