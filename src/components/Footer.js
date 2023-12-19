@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="Fcontainer">
       <div className="Ftitle">
-        <a>TAFCO Designs and Constructions</a>
+        <h4>TAFCO Designs and Constructions</h4>
       </div>
       <div className="address">
         <span>TAFCO Designs and Constructions</span>
@@ -17,7 +17,7 @@ const Footer = () => {
           49/1, Anees Plaza, 2nd floor, Rashtriya Vidyalaya Rd, Basavanagudi,
           Bengaluru, Karnataka-560004
         </span>
-      </div>
+      </div> 
       <div className="FiconContainer">
         <Image src="/assets/Facebook.png" alt="some" width={20} height={20} />
         <Image src="/assets/Twitter.png" alt="some" width={20} height={20} />
