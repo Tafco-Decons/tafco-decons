@@ -1,0 +1,38 @@
+/* styles/contact.module.css */
+form {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.nameandemail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.button {
+  width: 100%;
+  background-color: #ffffff;
+  color: #072739;
+  padding: 1em;
+  font-size: large;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .nameandemail {
+    display: block;
+  }
+}
