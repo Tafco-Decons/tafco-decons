@@ -1,10 +1,8 @@
-import HomePage from "./home/page";
-import "rsuite/dist/rsuite.min.css";
+import React from "react";
+import Home from "./home/page";
 
-export default function Home() {
-  return (
-    <>
-      <HomePage />
-    </>
-  );
-}
+const RootPage = () => {
+  return <Home />;
+};
+
+export default RootPage;
