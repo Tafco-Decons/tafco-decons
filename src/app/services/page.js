@@ -37,8 +37,8 @@ const Services = () => {
     return (
       <div className="iconContainer">
         {description.map((item, index) => (
-          <div className="services">
-            <div key={index} className="ImageContainer">
+          <div className="services" key={index}>
+            <div className="ImageContainer">
               <Image src={`/assets/${item.img}`} width={400} height={400} />
             </div>
             <div className="descContainer">
