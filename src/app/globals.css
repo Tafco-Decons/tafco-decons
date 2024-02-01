@@ -20,7 +20,6 @@
   padding: 0;
   margin: 0;
 }
- body {
+body {
   color: rgb(var(--foreground-rgb));
-  font-family: inherit;
-} 
+}

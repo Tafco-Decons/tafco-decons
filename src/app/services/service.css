@@ -1,0 +1,112 @@
+.outerConatiner {
+  background-color: #072739;
+  width: 100%;
+  height: auto;
+  padding: 2em;
+  color: #ffffff;
+}
+
+.ServicetextContainer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.ServicetextContainer h1 {
+  font-size: 3rem;
+}
+
+.ServicetextContainer h3 {
+  font-size: 1.5rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin: 2em; /* Reduce margin to prevent excessive spacing */
+  margin-bottom: 4em;
+}
+
+.ImageContainer {
+  width: 600px; /* Set a fixed width for the image container */
+  height: 500px; /* Set a fixed height for the image container */
+}
+
+.ImageContainer img {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: 100%; /* Ensure the image takes the full height of its container */
+  object-fit: cover; /* Cover the entire container without distortion */
+}
+
+.descContainer {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.descContainer h1 {
+  font-size: 3rem;
+}
+
+.descContainer h2 {
+  font-size: 1.5rem;
+}
+
+.descContainer h3 {
+  font-size: 1rem;
+  line-height: 1.9rem;
+}
+
+@media (max-width: 600px) {
+  .outerConatiner {
+    padding: 0;
+    height: auto;
+  }
+  .textContainer {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .services {
+    display: block;
+    margin: 0; /* Adjust margin for smaller screens */
+    text-align: center;
+  }
+  .descContainer {
+    display: block;
+    max-width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+
+  .ImageContainer {
+    width: 100%; /* Set width to 100% for smaller screens */
+    height: 300px; /* Set a fixed height for the image container in mobile view */
+  }
+
+  .ImageContainer img {
+    height: 100%; /* Ensure the image takes the full height of its container */
+  }
+
+  .textContainer {
+    display: block;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .textContainer h1 {
+    text-align: center;
+  }
+
+  .textContainer h3 {
+    text-align: center;
+    padding: 2em;
+  }
+}

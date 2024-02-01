@@ -9,7 +9,7 @@ const NavBar = () => {
   const pathname = usePathname();
   const router = useRouter();
   const navLinks = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "/home" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Projects", href: "/projects" },
@@ -20,7 +20,7 @@ const NavBar = () => {
       <div
         className="image"
         onClick={() => {
-          router.push("/");
+          router.push("/home");
         }}
       >
         <Image

@@ -1,15 +1,31 @@
+import "rsuite/dist/rsuite.min.css";
 import React from "react";
-import "@/app/about/about.css";
+import "@/app/home/HomeStyles.css";
+import HomeCarousel from "@/components/HomeCarousel";
+import Contact from "../contact/page";
+import Services from "../services/page";
 import Image from "next/image";
+import Projects from "../projects/page";
 
-// export const metadata = {
-//   title: "About | TAFCO Designs and Constructions",
-// };
-
-const About = () => {
+const Home = () => {
   return (
     <>
-      <div className="outerContainer">
+      <HomeCarousel />
+      <div className="welcome">
+        <div className="welcomeInnerContainer">
+          <h1>Welcome to TAFCO Designs and Constructions</h1>
+          <h3>Top Quality Guaranteed</h3>
+          <h5>
+            Looking for a licensed and experienced professional to tackle a
+            project? Get guaranteed quality results with TAFCO Designs and
+            Constructions. We offer professional and reliable services for a
+            wide variety of needs, working with the dedication and craftsmanship
+            that has earned us a reputation for excellence. Get in touch for a
+            free quote today.
+          </h5>
+        </div>
+      </div>
+      <div className="AboutContainer">
         <div className="innerContainer">
           <div className="imageContainer">
             <Image
@@ -19,7 +35,7 @@ const About = () => {
               height={100}
             />
           </div>
-          <div className="textContainer">
+          <div className="AbouttextContainer">
             <h1>Who are we?</h1>
             <h2>Contractors You Can Trust</h2>
             <h3>
@@ -35,8 +51,11 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Services />
+      <Projects />
+      <Contact />
     </>
   );
 };
 
-export default About;
+export default Home;

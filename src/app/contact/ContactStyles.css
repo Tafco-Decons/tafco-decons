@@ -1,0 +1,48 @@
+.ContactOuterContainer {
+  background-color: #072739;
+  width: 100%;
+  height: auto;
+  padding: 2em;
+}
+.ContacttitleContainer {
+  text-align: center;
+}
+.Ctitle h3 {
+  font-size: 2rem;
+  color: #f7f6f1;
+  font-weight: 500;
+  line-height: 1.41em;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+.Ctitle span {
+  font-size: 0.9rem;
+  color: #f7f6f1;
+  font-weight: 400;
+  line-height: 1.41em;
+  font-family: inherit;
+  text-decoration: none;
+}
+.Caddress {
+  font-size: 0.9rem;
+  color: #f7f6f1;
+  font-weight: 400;
+  line-height: 1.875em;
+  font-family: inherit;
+  margin: 1.2em 0;
+}
+
+.mail {
+  margin-top: 2em;
+}
+.mail a {
+  color: #f7f6f1;
+}
+.phone {
+  margin-top: 2em;
+}
+.phone span {
+  color: #f7f6f1;
+}

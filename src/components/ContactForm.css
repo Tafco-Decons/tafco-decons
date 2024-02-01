@@ -20,16 +20,20 @@ textarea {
   color: #ffffff;
 }
 
-.button {
+.contactSubmitButton {
   width: 100%;
-  background-color: #ffffff;
-  color: #072739;
+  background-color: #ffc925;
+  color: #ffffff;
   padding: 1em;
   font-size: large;
   font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contactSubmitButton:hover {
+  cursor: pointer;
+  background-color: rgb(51, 51, 51);
 }
 @media (max-width: 600px) {
   .nameandemail {

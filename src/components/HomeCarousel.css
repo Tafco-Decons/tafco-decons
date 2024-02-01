@@ -1,0 +1,97 @@
+.HImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/Homebackground1.jpeg");
+  background-repeat: no-repeat;
+}
+.HImageContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/Homebackground.jpeg");
+  background-repeat: no-repeat;
+}
+.titleContainer {
+  max-width: fit-content;
+  margin: 1em;
+}
+.title {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title span {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h5 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1em;
+  letter-spacing: 0.2rem;
+}
+
+.button {
+  font-size: large;
+  color: #ffffff;
+  background-color: #ffc925;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+}
+.learnButton:hover {
+  background-color: rgb(51, 51, 51);
+  color: #ffffff;
+}
+.projects {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+}
+.projects:hover {
+  color: #ffc925;
+}
+.buttonContainer {
+  margin-top: 2.8em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .title {
+    letter-spacing: normal;
+  }
+  .buttonContainer {
+    display: grid;
+    margin-top: 3em;
+    gap: 10px;
+  }
+}
