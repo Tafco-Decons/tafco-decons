@@ -9,16 +9,18 @@ export const useMediaQuery = (query) => {
   );
 
   useEffect(() => {
-    const queryList = window.matchMedia(query);
-    setMatches(queryList.matches);
+    if (typeof window !== "undefined") {
+      const queryList = window.matchMedia(query);
+      setMatches(queryList.matches);
 
-    const listener = (evt) => setMatches(evt.matches);
+      const listener = (evt) => setMatches(evt.matches);
 
-    // Modern approach using addEventListener
-    queryList.addEventListener("change", listener);
+      // Modern approach using addEventListener
+      queryList.addEventListener("change", listener);
 
-    // Clean up the listener using removeEventListener
-    return () => queryList.removeEventListener("change", listener);
+      // Clean up the listener using removeEventListener
+      return () => queryList.removeEventListener("change", listener);
+    }
   }, [query]);
 
   return matches;
