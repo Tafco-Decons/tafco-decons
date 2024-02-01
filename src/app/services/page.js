@@ -39,7 +39,12 @@ const Services = () => {
         {description.map((item, index) => (
           <div className="services" key={index}>
             <div className="ImageContainer">
-              <Image src={`/assets/${item.img}`} width={400} height={400} />
+              <Image
+                src={`/assets/${item.img}`}
+                width={400}
+                height={400}
+                alt={item.title}
+              />
             </div>
             <div className="descContainer">
               <h1>{item.title}</h1>

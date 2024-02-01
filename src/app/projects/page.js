@@ -23,23 +23,22 @@ const Projects = () => {
   const projectDescription = [
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
+
       title: "Villa at Chikmagalur ",
       subtitle: "Ongoing project",
       desc: "This project involved a lot of compliance measures to make sure we followed industry standards adequately. Successfully completed on time and within budget, it’s a great example of delivering on our promise of quality work while ensuring absolute client satisfaction. Want to learn more about similar projects? Get in touch today.",
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Apartment at Jayanagar 9th Block, Bangalore",
       subtitle: "January 25, 2025",
@@ -47,11 +46,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Apartment building at Jayanagar 9th Block",
       subtitle: "January 25, 2025",
@@ -59,11 +57,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Residential building at Hassan",
       subtitle: "Completed Project",
@@ -71,11 +68,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Entropy’s Park View, Madhavan Park, Jayanagar, Bangalore",
       subtitle: "Completed Project",
@@ -83,11 +79,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Entropy Heights, BHEL layout, Bangalore",
       subtitle: "Completed Project",
@@ -95,11 +90,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Apartment at Dr. Omer Shariff Road, Basavanagudi, Bangalore",
       subtitle: "Ongoing Project",
@@ -107,11 +101,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Jamia Masjid, Sakleshpur",
       subtitle: "Ongoing Project",
@@ -119,11 +112,10 @@ const Projects = () => {
     },
     {
       img: [
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4",
-        "https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5",
+        "/assets/Architecture.jpg",
+        "/assets/Interior.jpg",
+        "/assets/Structuraldesign.jpg",
+        "/assets/Construction.jpg",
       ],
       title: "Apartment at Jayanagar East End A Cross, Bangalore",
       subtitle: "Upcoming Project",
@@ -145,10 +137,9 @@ const Projects = () => {
                   <div key={imageIndex} className="ProjectImageContainer">
                     <Image
                       src={imageUrl}
-                      width={600}
+                      width={400}
                       height={250}
-                      layout="responsive"
-                      objectFit="cover"
+                      alt={item.subtitle}
                     />
                   </div>
                 ))}
