@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import "@/app/projects/Projects.css";
 import Image from "next/image";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
-import ProjectCarousel from "@/components/ProjectCarousel";
 import { Carousel } from "rsuite";
 
 const Projects = () => {

@@ -4,24 +4,23 @@
 import { useEffect, useState } from "react";
 
 export const useMediaQuery = (query) => {
-  const [matches, setMatches] = useState(
-    () => window.matchMedia(query).matches
-  );
+  const [matches, setMatches] = useState(false);
 
   useEffect(() => {
+    // Check if window is defined (i.e., if the code is running on the client-side)
     if (typeof window !== "undefined") {
       const queryList = window.matchMedia(query);
       setMatches(queryList.matches);
 
       const listener = (evt) => setMatches(evt.matches);
 
-      // Modern approach using addEventListener
+      // Add event listener to handle changes in media query matches
       queryList.addEventListener("change", listener);
 
-      // Clean up the listener using removeEventListener
+      // Clean up the listener when component unmounts
       return () => queryList.removeEventListener("change", listener);
     }
-  }, [query]);
+  }, [query]); // Re-run effect when query changes
 
   return matches;
 };
